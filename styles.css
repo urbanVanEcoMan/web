@@ -1,0 +1,194 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header ul li {
+    margin-left: 1rem;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+header ul li a:hover {
+    color: #2a6bda;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    flex: 1;
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px; /* Space between the phone number and the WhatsApp logo */
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    header .logo img {
+        height: 40px; /* Adjust for smaller screens */
+    }
+}
+
+/* Services Section */
+#services {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.service {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('./blue_van.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* Ensures text is above the overlay */
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional for better readability */
+}
+
+.hero-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Optional for better readability */
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #2919b8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background-color: #4747ff;
+}
+
+/* about Section */
+#about {
+    padding: 1rem;
+    text-align: center;
+}
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 3rem 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.testimonial {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+/* Contact Section */
+#contact {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
