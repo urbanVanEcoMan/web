@@ -71,13 +71,66 @@
 
     <!-- Contact Section -->
     <section id="contact" style="background-color: #2a6bda;">
-        <iframe aria-label='Get A Quote!' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.eu/matchahackgm1/form/GetQuote/formperma/c_4Bw-0zzO-JhGndMvUvaAzT7w1aPiUQXfDH9zF8Zy0'></iframe>
-    </section>
-
-    <!-- Footer Section -->
+        
+<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+<form action='https://forms.zohopublic.eu/matchahackgm1/form/GetQuote/formperma/DQMG_l288aDhZQCtSgKelevSRum02ZTI485t9neBDcc/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+    <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+    <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+    <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+    <h2>Get A Quote!</h2>
+    <div id="box" style="display: flex; justify-content: center; align-items: center;">
+        <label>Name</label>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First"/>
+        </div>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last"/>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <label> Email <em>*</em></label>
+        <div style="padding-left: 10px;" >
+            <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email Address"/>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <label> Phone </label>
+        <div style="padding-left: 10px;">
+            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Phone Number"/>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <label> Pick-Up Location <em>*</em></label>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Address_AddressLine2" placeholder="Street Address"/>
+        </div>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Address_ZipCode" placeholder="Postal Code"/>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <label> Drop-Off Location <em>*</em></label>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Address1_AddressLine2" placeholder="Street Address" />
+        </div>
+        <div style="padding-left: 10px;">
+            <input type="text" maxlength="255" name="Address1_ZipCode" placeholder="Postal Code" />
+        </div>
+    </div>
+    <div>
+        <label> When do you need our help? <em>*</em></label>
+        <input name="DateTime_date" type="text" maxlength="15" value="" placeholder="" />
+    </div>
+    <div>
+        <label> Coffee! </label>
+        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="" />
+        <p>If you want a coffee, you can use this section to tell us your favourite local shop and order! Alternatively, specify a price range and we will see you with your coffee!</p>
+        <button type="submit"><em>Submit</em></button>
+    </div>
+    </form>
     <footer>
         <a href="tel:+4407708067571" style="color: white;">+4407708067571</a>
-        <p>&copy; 2024 The Blue Van Urban Mover. All Rights Reserved.</p>
+        <p>&copy; 2024 Eco Van Urban Man. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
