@@ -290,7 +290,7 @@ footer {
     background-color: #2a6bda;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -303,5 +303,5 @@ footer a {
 }
 
 footer p {
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
 }
