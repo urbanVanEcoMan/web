@@ -258,3 +258,37 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+.horizontal-header {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.horizontal-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-header ul li {
+    margin: 0 20px;
+}
+
+.horizontal-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2a6bda; /* New background color */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.horizontal-header ul li a:hover {
+    background-color: #1a4b8d; /* Darker shade of blue on hover */
+    text-decoration: none;
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
