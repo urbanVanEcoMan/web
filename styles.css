@@ -125,7 +125,7 @@ nav {
 @media (max-width: 768px) {
     #popup {
         position: fixed;
-        top: 40%;
+        top: 30%;
         color: rgb(0, 0, 0);
         background-color: #c87b07;
         padding: 8px;
