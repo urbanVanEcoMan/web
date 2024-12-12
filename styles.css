@@ -110,8 +110,9 @@ nav {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -300%);
+    transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
+    background-color: #c87b07;
     padding: 20px;
     border-radius: 10px;
     font-size: 30px;
