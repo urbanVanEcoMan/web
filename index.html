@@ -19,9 +19,11 @@
         </nav>
         <div class="menu">
             <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li>|</li>
                 <li><a href="#services">Coffee</a></li>
                 <li>|</li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#"  id="merch-link">Merch</a></li>
             </ul>
         </div>
     </header>
@@ -140,7 +142,29 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="whatsapp-logo">
         </a>
     </div>
-    
+
+    <!-- Popup -->
+    <div id="popup">Coming Soon!</div>
+
+    <script>
+        // JavaScript for popup functionality
+        document.getElementById('merch-link').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const popup = document.getElementById('popup');
+            popup.style.display = 'block'; // Show the popup
+            popup.style.opacity = '1';
+        
+            // Fade out after 2 seconds
+            setTimeout(() => {
+                popup.style.opacity = '0';
+                // Hide after the fade-out animation
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 1000);
+            }, 2000);
+        });
+    </script>
+
 </body>
 
 </html>
