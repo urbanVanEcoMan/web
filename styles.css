@@ -120,14 +120,14 @@ nav {
     text-align: center;
     display: none;
     opacity: 10;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }
 
 @media (max-width: 768px) {
     #popup {
         position: fixed;
-        top: 50%;
-        left: 80%;
+        top: 100%;
+        left: 100%;
         color: rgb(0, 0, 0);
         background-color: #c87b07;
         padding: 20px;
@@ -137,7 +137,7 @@ nav {
         text-align: center;
         display: none;
         opacity: 10;
-        transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
     }
 }
 
