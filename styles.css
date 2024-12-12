@@ -130,9 +130,9 @@ nav {
         left: 100%;
         color: rgb(0, 0, 0);
         background-color: #c87b07;
-        padding: 20px;
-        border-radius: 10px;
-        font-size: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 10px;
         font-weight: bold;
         text-align: center;
         display: none;
