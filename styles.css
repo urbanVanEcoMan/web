@@ -120,14 +120,24 @@ nav {
     text-align: center;
     display: none;
     opacity: 10;
-    z-index: 9999; /* Ensure it is in front of all other content */
     transition: opacity 0.5s ease-in-out;
 }
 
 @media (max-width: 768px) {
     #popup {
-        width: 80%;  /* Adjust the width to make sure it fits on smaller screens */
-        font-size: 20px;  /* Adjust font size if necessary */
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        color: rgb(0, 0, 0);
+        background-color: #c87b07;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        display: none;
+        opacity: 10;
+        transition: opacity 0.5s ease-in-out;
     }
 }
 
